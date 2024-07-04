@@ -1,0 +1,12 @@
+# You must first activate a Billing Account here: https://platform.openai.com/account/billing/overview
+# Then get your OpenAI API Key here: https://platform.openai.com/account/api-keys
+OPENAI_API_KEY="sk-proj-76BnfsrUOu2FcjUCtLITT3BlbkFJs7vEGYNj297nfidXfWeR"
+
+# Generate a random secret: https://generate-secret.vercel.app/32 or `openssl rand -base64 32`
+AUTH_SECRET="d80ed440684a6df877d8f9829390993b"
+
+# Instructions to create kv database here: https://vercel.com/docs/storage/vercel-kv/quickstart and 
+KV_URL="redis://default:AchUAAIncDFkMmZhYjFkYThjMGE0ZjhmODQyYjNiNzZiMWM4YTZkNHAxNTEyODQ@genuine-tetra-51284.upstash.io:6379"
+KV_REST_API_URL="https://genuine-tetra-51284.upstash.io"
+KV_REST_API_TOKEN="AchUAAIncDFkMmZhYjFkYThjMGE0ZjhmODQyYjNiNzZiMWM4YTZkNHAxNTEyODQ"
+KV_REST_API_READ_ONLY_TOKEN="AshUAAIgcDEIre77j4ZeoHDydekplwxUSMoQY4TXsmKg3ZJhgvKEGw"
